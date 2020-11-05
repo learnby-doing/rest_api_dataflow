@@ -13,6 +13,7 @@ def pipeline(input_file, output_file, pipline_args):
     os.environ["GOOGLE_APPLICATION_CRENDENTIALS"] = "C:\\Users\\ASHISH\\Desktop\\GCP\\dhamu-gcp-learn.json"
     options = PipelineOptions(pipline_args)
     p = beam.Pipeline(options = options)
+    print(os.environ['GOOGLE_APPLICATION_CREDENTIALS'])
 
     attendatn_count = (
         p
