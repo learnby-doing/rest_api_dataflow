@@ -2,7 +2,7 @@ try:
     import argparse
 
     parser = argparse.ArgumentParser()
-
+    # Runtime arguments for Datflow API
     parser.add_argument('--input',
                         dest='input',
                         required=True,
