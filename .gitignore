@@ -1,0 +1,9 @@
+venv
+.vscode
+*.txt
+*.csv
+*.sql
+test*
+.idea
+__pycache__*
+apache_window/
